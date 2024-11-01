@@ -264,4 +264,4 @@ Sau đó, những thay đổi giữa hai nhánh sẽ khác nhau để hợp nh�
 chính:
 $ git checkout master
 $ git merge experimental
-Ghi chú: git log -- graph có thể hữu ích để hiển thị các nhánh.
+Ghi chú: git log -- graph có thể hữu ích để hiển thị các nhánh
