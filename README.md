@@ -244,15 +244,16 @@ $ git <verb> --help
 $ man git-<verb>
 - Lệnh Git
 | Lệnh                       | Chức năng                                                               |
-|----------------------------|-------------------------------------------------------------------------|
-| `git clone url [dir]`     | Sao chép một kho lưu trữ Git về máy và có thể chỉ định thư mục đích.     |
-| `git add files`           | Thêm nội dung tập tin vào vùng dàn dựng để chuẩn bị cho việc commit.     |
-| `git commit`              | Ghi lại trạng thái của vùng dàn dựng, tạo một commit mới.                |
-| `git status`              | Xem trạng thái của các tập tin trong thư mục làm việc và vùng dàn dựng.  |
-| `git diff`                | Hiển thị sự khác biệt giữa các thay đổi đã dàn dựng và chưa dàn dựng.    |
-| `git help [command]`      | Nhận thông tin trợ giúp về một lệnh cụ thể của Git.                      |
-| `git pull`                | Lấy dữ liệu từ kho lưu trữ từ xa và hợp nhất vào nhánh hiện tại.         |
-| `git push`                | Đẩy các nhánh và dữ liệu mới lên kho lưu trữ từ xa.                      |
+|----------------------------|------------------------------------------------------------------------|
+| `git clone url [dir]`     | Sao chép một kho lưu trữ Git về máy và có thể chỉ định thư mục đích. |
+| `git add files`           | Thêm nội dung tập tin vào vùng dàn dựng để chuẩn bị cho việc commit.   |
+| `git commit`              | Ghi lại trạng thái của vùng dàn dựng, tạo một commit mới.              |
+| `git status`              | Xem trạng thái của các tập tin trong thư mục làm việc và vùng dàn dựng.|
+| `git diff`                | Hiển thị sự khác biệt giữa các thay đổi đã dàn dựng và chưa dàn dựng.  |
+| `git help [command]`      | Nhận thông tin trợ giúp về một lệnh cụ thể của Git.                   |
+| `git pull`                | Lấy dữ liệu từ kho lưu trữ từ xa và hợp nhất vào nhánh hiện tại.     |
+| `git push`                | Đẩy các nhánh và dữ liệu mới lên kho lưu trữ từ xa.                   |
+
 - Phân nhánh:
   Để tạo một nhánh có tên là thử nghiệm:
 $ git branch experimental
