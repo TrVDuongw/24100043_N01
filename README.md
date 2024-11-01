@@ -254,15 +254,3 @@ $ man git-<verb>
 | `git pull`                | Lấy dữ liệu từ kho lưu trữ từ xa và hợp nhất vào nhánh hiện tại.     |
 | `git push`                | Đẩy các nhánh và dữ liệu mới lên kho lưu trữ từ xa.                   |
 
-- Phân nhánh:
-  Để tạo một nhánh có tên là thử nghiệm:
-$ git branch experimental
-Để liệt kê tất cả các nhánh: (* hiển thị nhánh bạn hiện đang ở)
-$ git branch
-Để chuyển sang nhánh thử nghiệm:
-$ git checkout experimental
-Sau đó, những thay đổi giữa hai nhánh sẽ khác nhau để hợp nhất những thay đổi từ nhánh thử nghiệm vào nhánh
-chính:
-$ git checkout master
-$ git merge experimental
-Ghi chú: git log -- graph có thể hữu ích để hiển thị các nhánh
